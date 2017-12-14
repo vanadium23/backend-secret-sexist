@@ -15,6 +15,15 @@ function Result(props) {
     >
       <div>
         <h1>Поздравляем, Вы - 100% сексист!</h1>
+        <div className="start">
+        <a className="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text="
+            data-text="Поздравляем, Вы - 100% сексист!"
+            data-url="http://vanadium23.me/backend-secret-sexist/"
+            data-hashtags="сексизм,заднесерверные"
+            data-size="large">
+          Tweet</a>
+        </div>
       </div>
     </ReactCSSTransitionGroup>
   );
