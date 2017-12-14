@@ -1,8 +1,8 @@
 {
-  "name": "react-quiz",
+  "name": "backend-secret-sexist",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://mitchgavan.com/react-multi-choice-quiz/",
+  "homepage": "http://vanadium23.me/backend-secret-sexist/",
   "devDependencies": {
     "react-scripts": "0.2.1"
   },
