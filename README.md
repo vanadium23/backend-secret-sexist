@@ -1,6 +1,6 @@
 # React Quiz
 
-[View demo](http://mitchgavan.github.io/react-multi-choice-quiz/)
+Thanks for bootstrap to [mitchgavan](https://github.com/mitchgavan/react-multi-choice-quiz/)
 
 Created with [Create React App](https://github.com/facebookincubator/create-react-app)
 

@@ -1,89 +1,99 @@
 var quizQuestions = [
-  {
-      question: "What franchise would you rather play a game from?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "Halo"
-          },
-          {
-              type: "Nintendo",
-              content: "Pokemon"
-          },
-          {
-              type: "Sony",
-              content: "Uncharted"
-          }
-      ]
-  },
-  {
-      question: "Which console would you prefer to play with friends?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "X-Box"
-          },
-          {
-              type: "Nintendo",
-              content: "Nintendo 64"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 1"
-          }
-      ]
-  },
-  {
-      question: "Which of these racing franchises would you prefer to play a game from?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "Forza"
-          },
-          {
-              type: "Nintendo",
-              content: "Mario Kart"
-          },
-          {
-              type: "Sony",
-              content: "Gran Turismo"
-          }
-      ]
-  },
-  {
-      question: "Which of these games do you think is best?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "BioShock"
-          },
-          {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
-          },
-          {
-              type: "Sony",
-              content: "Final Fantasy VII"
-          }
-      ]
-  },
-  {
-      question: "What console would you prefer to own?",
-      answers: [
-          {
-              type: "Microsoft",
-              content: "X-Box One"
-          },
-          {
-              type: "Nintendo",
-              content: "Wii U"
-          },
-          {
-              type: "Sony",
-              content: "Playstation 4"
-          }
-      ]
-  }
+    {
+        question: "Как вы думаете почему нет хороших женщин-шахматисток? @yegor256",
+        answers: [
+            {
+                content: "Исторически мало женщин играло в шахматы, поэтому выборка не репрезентативна"
+            },
+            {
+                content: "Как нет, когда есть?"
+            },
+            {
+                content: "Потому что."
+            },
+            {
+                content: "Как нет, когда есть?"
+            }
+        ],
+    },
+    {
+        question: "Как вы относитесь к книжке Новоселова 'Женщина. Учебник для мужчин'?",
+        answers: [
+            {
+                content: "Очень хорошая книга. Но мне больше нравится Анатолий Протопопов."
+            },
+            {
+                content: "Книга не отражает реальности"
+            },
+        ],
+    },
+    {
+        question: "Мужчины и женщины по природе своей существа неодинаковые?",
+        answers: [
+            {
+                content: "Конечно, спусти штаны перед друг другом и сами проверьте."
+            },
+            {
+                content: "Это надо спросить у Господа Бога"
+            },
+            {
+                content: "Все мы люди"
+            },
+        ],
+    },
+    {
+        question: "Различен ли мужской и женский мозг?",
+        answers: [
+            {
+                content: "Да, есть исследования на эту тему."
+            },
+            {
+                content: "Нет, статистика не показательна."
+            },
+        ],
+    },
+    {
+        question: "Считаете ли вы запрет продажи алкоголя детям дискриминацией?",
+        answers: [
+            {
+                content: "Да, просто она социально-приемлема."
+            },
+            {
+                content: "Нет, это во благо детей."
+            },
+            {
+                content: "Нет, это во благо родителей."
+            },
+        ],
+    },
+    {
+        question: "Свойственна ли женщинам интуиция, а мужчинам логика?",
+        answers: [
+            {
+                content: "Это можно найти везде, начиная с народного фольклора, книг по дейтингу и заканчивая разными исследованиями. Разве это действительно не очевидно?"
+            },
+            {
+                content: "Нет, на вкус и цвет все фломастеры разные."
+            },
+            {
+                content: "Нет, всё наоборот у мужчин интуиция, а у женщин логика."
+            },
+        ],
+    },
+    {
+        question: "Является ли женщина без мужчины самостоятельным человеком?",
+        answers: [
+            {
+                content: "Женщина не в состоянии зачать ребенка самостоятельно. То есть она не самостоятельна. И при этом полноценна."
+            },
+            {
+                content: "Конечно может, самостоятельность не про физиологию."
+            },
+            {
+                content: "Нет, всё наоборот это мужчина не самостоятелен без женщины, потому что они дети."
+            },
+        ],
+    },
 ];
 
 export default quizQuestions;
