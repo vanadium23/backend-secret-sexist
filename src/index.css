@@ -9,6 +9,24 @@ body {
   padding: 0;
   background: #eee;
   font-family: sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #838383;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #252525;
 }
 
 .container {
