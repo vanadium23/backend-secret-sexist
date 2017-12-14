@@ -62,8 +62,8 @@ class App extends Component {
     }
   }
 
-  handleQuizStart() {
-    console.log('test');
+  handleQuizStart(event) {
+    event.preventDefault();
     this.setState({
       startQuiz: true,
     });
