@@ -18,6 +18,11 @@ body {
   flex: 1;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   text-align: center;
   padding-bottom: 1rem;

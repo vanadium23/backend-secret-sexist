@@ -1,7 +1,23 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
+import {
+  ShareButtons,
+  ShareCounts,
+  generateShareIcon
+} from 'react-share';
+
 function Result(props) {
+
+  const {
+    FacebookShareButton,
+    TwitterShareButton,
+    VKShareButton,
+  } = ShareButtons;
+
+  const TwitterIcon = generateShareIcon('twitter');
+  const FacebookIcon = generateShareIcon('facebook');
+  const VKShareIcon = generateShareIcon('vk');
 
   return (
     <ReactCSSTransitionGroup
@@ -15,14 +31,26 @@ function Result(props) {
     >
       <div>
         <h1>Поздравляем, Вы - 100% сексист!</h1>
-        <div className="start">
-        <a className="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text="
-            data-text="Поздравляем, Вы - 100% сексист!"
-            data-url="http://vanadium23.me/backend-secret-sexist/"
-            data-hashtags="сексизм,заднесерверные"
-            data-size="large">
-          Tweet</a>
+        <div className="social">
+          <TwitterShareButton
+            url={"http://vanadium23.me/backend-secret-sexist/"}
+            title={"Поздравляем, Вы - 100% сексист!"}
+            hashtags={["сексизм","заднесерверные"]}
+          >
+            <TwitterIcon size={64} round={true} />
+          </TwitterShareButton>
+          <FacebookShareButton
+            url={"http://vanadium23.me/backend-secret-sexist/"}
+            quote={"Поздравляем, Вы - 100% сексист!"}
+          >
+            <FacebookIcon size={64} round={true} />
+          </FacebookShareButton>
+          <VKShareButton
+            url={"http://vanadium23.me/backend-secret-sexist/"}
+            title={"Поздравляем, Вы - 100% сексист!"}
+          >
+            <VKShareIcon size={64} round={true} />
+          </VKShareButton>
         </div>
       </div>
     </ReactCSSTransitionGroup>
