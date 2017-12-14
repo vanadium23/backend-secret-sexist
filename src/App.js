@@ -152,9 +152,9 @@ class App extends Component {
   }
 
   renderStep() {
-    // if (this.state.result) {
+    if (this.state.result) {
       return this.renderResult();
-    // }
+    }
     if (this.state.startQuiz) {
       return this.renderQuiz();
     }
